@@ -1,5 +1,7 @@
 def remove_duplicates(array):
-    return 0
+    elemen_unique = set(array)
+    
+    return len(elemen_unique)
 
 if __name__ == '__main__':
     print(remove_duplicates([2, 3, 3, 3, 6, 9, 9])) # 4

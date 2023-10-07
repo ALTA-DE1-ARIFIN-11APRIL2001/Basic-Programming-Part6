@@ -1,6 +1,6 @@
 import unittest
 
-import main from remove_duplicates
+from main import remove_duplicates
 
 class TestRemoveDuplicatesFunction(unittest.TestCase):
 

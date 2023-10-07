@@ -1,6 +1,6 @@
 import unittest
 
-import main from caesar
+from main import caesar
 
 class TestCaesarFunction(unittest.TestCase):
 
